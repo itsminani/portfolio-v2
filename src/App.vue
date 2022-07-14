@@ -3,9 +3,11 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
 import ToggleDark from './components/ToggleDark.vue';
+import NavBar from './components/NavBar.vue';
 </script>
 
 <template>
+    <NavBar/>
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -33,6 +35,7 @@ import ToggleDark from './components/ToggleDark.vue';
 </style>
 
 <style>
+
 html.dark{
   color-scheme: dark;
 }
