@@ -16,10 +16,10 @@ const cardWindowStyle: CSSProperties = {
   overflow: 'hidden',
   fontSize: '6rem',
   position: 'absolute',
-  top: 'calc(50% - 1em)',
-  left: 'calc(50% - 1em)',
-  height: '2em',
-  width: '2em',
+  top: 'calc(50% - 2em)',
+  left: 'calc(50% - 2em)',
+  height: '4em',
+  width: '4em',
   margin: 'auto',
 }
 const layerBase: CSSProperties = {
@@ -60,13 +60,13 @@ const layer3 = computed(() => ({
   ...layerBase,
   transform: `translateX(${parallax.tilt * 40}px) translateY(${
     parallax.roll * 40
-  }px) scale(1.33)`,
+  }px) scale(0.90)`,
 }))
 const layer4 = layerBase
 const cardStyle = computed(() => ({
   background: '#fff',
-  height: '20rem',
-  width: '15rem',
+  height: '30rem',
+  width: '28rem',
   borderRadius: '5px',
   border: '1px solid #cdcdcd',
   overflow: 'hidden',
@@ -90,27 +90,27 @@ const cardStyle = computed(() => ({
           <div :style="cardWindowStyle">
             <img
               :style="layer0"
-              src="https://jaromvogel.com/images/design/jumping_rabbit/page2layer0.png"
+              src="../assets/Parallax/page2layer0_new.png"
               alt=""
             >
             <img
               :style="layer1"
-              src="https://jaromvogel.com/images/design/jumping_rabbit/page2layer1.png"
+              src="../assets/Parallax/page2layer1_new.png"
               alt=""
             >
             <img
               :style="layer2"
-              src="https://jaromvogel.com/images/design/jumping_rabbit/page2layer2.png"
+              src="../assets/Parallax/page2layer2_new.png"
               alt=""
             >
             <img
               :style="layer3"
-              src="https://jaromvogel.com/images/design/jumping_rabbit/page2layer3.png"
+              src="../assets/Parallax/page2layer3_new.png"
               alt=""
             >
             <img
               :style="layer4"
-              src="https://jaromvogel.com/images/design/jumping_rabbit/page2layer4.png"
+              src="../assets/Parallax/page2layer4_new.png"
               alt=""
             >
           </div>
