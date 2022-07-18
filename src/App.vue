@@ -7,12 +7,12 @@ import NavBar from "./components/NavBar.vue";
 import ParallaxCard from "./components/ParallaxCard.vue";
 </script>
 
-<template class="flex items-center justify-center h-screen">
-  <div class="app ">
-    <NavBar />
+<template class="">
+  <div class=" ">
+    <NavBar id="nav"/>
     <ParallaxCard />
-    <h1>MBOKOLO ASHOBORA KUBA ARENZE NDAQ</h1>
-    <div>
+    <!-- <h1>MBOKOLO ASHOBORA KUBA ARENZE NDAQ dsfkljdsfj;ksfdjjlsfajlfsdjjfsdkl</h1> -->
+    <!-- <div>
       <a href="#" target="">
         <img src="/vite.svg" class="logo" alt="Vite logo" />
       </a>
@@ -21,18 +21,20 @@ import ParallaxCard from "./components/ParallaxCard.vue";
       </a>
     </div>
     <ToggleDark />
-    <HelloWorld msg="Vite + Vue" />
+    <HelloWorld msg="Vite + Vue" /> -->
   </div>
 </template>
 
 <style scoped>
-.app{
-  width: 100%;
-}
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
+}
+
+/* Set the width to 100vw */
+#nav{
+  width: 100vw;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);

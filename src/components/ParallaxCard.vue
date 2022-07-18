@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, reactive, ref } from "vue";
 import type { CSSProperties } from "vue";
-import { useMediaQuery, useParallax } from "@vueuse/core";
+import { autoResetRef, useMediaQuery, useParallax } from "@vueuse/core";
 const target = ref(null);
 
 const showLayer0 = ref(true)  
@@ -37,7 +37,7 @@ const layerBase: CSSProperties = {
 };
 const containerStyle: CSSProperties = {
   margin: "3em auto",
-  perspective: "300px",
+  perspective: "500px",
 };
 const infoStyle = computed(() => ({
   opacity: 0.4,
@@ -72,8 +72,6 @@ const layer3 = computed(() => ({
 const layer4 = layerBase;
 const cardStyle = computed(() => ({
   background: "#fff",
-  height: "30rem",
-  width: "28rem",
   borderRadius: "5px",
   border: "1px solid #cdcdcd",
   overflow: "hidden",
@@ -93,7 +91,7 @@ const cardStyle = computed(() => ({
   <div>
     <div ref="target" :style="targetStyle">
       <div :style="containerStyle">
-        <div :style="cardStyle">
+        <div class="card" :style="cardStyle">
           <div :style="cardWindowStyle">
           <Transition >
               <img
@@ -200,6 +198,17 @@ const cardStyle = computed(() => ({
 
 
 <style scoped>
+.card{
+  height: 30rem;
+  width: 28rem;
+}
+@media only screen and (max-width: 620px) {
+  .card{
+    width: 90vw;
+    height: 90vw+1rem;
+    border: solid red 3px;
+  }
+}
 .enter-active,
 .leave-active {
   transition: opacity 0.5s ease;
