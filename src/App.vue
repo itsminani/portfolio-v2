@@ -12,7 +12,7 @@ import ParallaxCard from "./components/ParallaxCard.vue";
     <NavBar id="nav"/>
     <ParallaxCard />
     <!-- <h1>MBOKOLO ASHOBORA KUBA ARENZE NDAQ dsfkljdsfj;ksfdjjlsfajlfsdjjfsdkl</h1> -->
-    <!-- <div>
+    <div class="flex">
       <a href="#" target="">
         <img src="/vite.svg" class="logo" alt="Vite logo" />
       </a>
