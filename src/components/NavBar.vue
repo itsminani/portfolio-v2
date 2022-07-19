@@ -7,11 +7,10 @@ import ToggleDark from "./ToggleDark.vue";
     class=" sm:px-4 py-2.5 rounded "
   >
     <div class="flex flex-wrap justify-between items-center mx-auto">
-      <a href="https://flowbite.com/" class="flex items-center">
-        
-        <span
-          class="self-center text-xl font-semibold whitespace-nowrap"
-          >Flowbite</span
+      <a href="https://flowbite.com/" class="flex items-center text-xl font-semibold whitespace-nowrap">
+        Min<span
+          class="self-center primary"
+          >ani</span
         >
       </a>
       <div class="flex md:order-2">

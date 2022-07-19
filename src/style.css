@@ -80,6 +80,18 @@ button:focus-visible {
   margin: .3em;
 }
 
+/* Helper Styles */
+
+.primary{
+  color: var(--color);
+  transition: 0.3s;
+}
+.primary:hover{
+  color: var(--icon-filter);
+}
+
+
+
 #app {
   text-align: center;
 }
