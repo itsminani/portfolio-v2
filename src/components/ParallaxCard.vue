@@ -130,11 +130,11 @@ const cardStyle = computed(() => ({
         </div>
       </div>
     </div>
-
-    <div>
+    
+    <div id="Labels">
       <label
         for="default-toggle"
-        class="inline-flex relative items-center cursor-pointer"
+        class="inline-flex relative items-center cursor-pointer mr-4"
       >
         <input
           type="checkbox"
@@ -149,7 +149,7 @@ const cardStyle = computed(() => ({
       </label>
       <label
         for="default-toggle2"
-        class="inline-flex relative items-center cursor-pointer"
+        class="inline-flex relative items-center cursor-pointer mr-4"
       >
         <input
           type="checkbox"
@@ -164,7 +164,7 @@ const cardStyle = computed(() => ({
       </label>
       <label
         for="default-toggle3"
-        class="inline-flex relative items-center cursor-pointer"
+        class="inline-flex relative items-center cursor-pointer mr-4"
       >
         <input
           type="checkbox"

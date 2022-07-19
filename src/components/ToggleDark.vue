@@ -6,7 +6,7 @@ const toggleDark = useToggle(isDark)
 </script>
 
 <template>
-    <button @click="toggleDark()">{{ isDark?"☀️":"🌙"}}</button>
+    <button class="round" @click="toggleDark()">{{ isDark?"☀️":"🌙"}}</button>
 </template>
 
 
