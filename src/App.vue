@@ -12,7 +12,15 @@ import Card from "./components/Card.vue"
   <div class=" ">
     <NavBar id="nav"/>
     <ParallaxCard />
-    <div>
+    <div class="flex items-stretch flex-wrap">
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
       <Card/>
     </div>
     <!-- <h1>MBOKOLO ASHOBORA KUBA ARENZE NDAQ dsfkljdsfj;ksfdjjlsfajlfsdjjfsdkl</h1> -->
