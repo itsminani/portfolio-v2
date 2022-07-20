@@ -12,7 +12,7 @@ import Card from "./components/Card.vue"
   <div class=" ">
     <NavBar id="nav"/>
     <ParallaxCard />
-    <div class="flex items-stretch flex-wrap">
+    <div class="flex flex-wrap gap-3 ">
       <Card/>
       <Card/>
       <Card/>
