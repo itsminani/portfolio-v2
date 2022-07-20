@@ -1,10 +1,7 @@
-<script setup lang="ts">
-</script>
-
 <template>
 <div class="projectCard m-auto max-w-sm  rounded-lg border border-gray-200 shadow-md">
     <a href="#">
-        <img class="rounded-t-lg" src="../assets/Parallax/page2layer2_new.png" alt="" />
+        <img class="rounded-t-lg" src="../assets/Parallax/anime_girl.png" alt="" />
     </a>
     <div class="p-5">
         <a href="#">
@@ -23,5 +20,9 @@
 <style>
 .projectCard{
   background-color: var(--highlight-color);
+}
+img{
+  width:300px;
+  height:300px;
 }
 </style>
