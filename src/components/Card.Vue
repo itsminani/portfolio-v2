@@ -1,3 +1,10 @@
+<script setup lang="ts">
+import { ref } from 'vue';
+
+const variable = ref("")
+console.log(variable)
+</script>
+
 <template>
 <div class="projectCard m-auto max-w-sm  rounded-lg border border-gray-200 shadow-md">
     <a href="#">
@@ -21,6 +28,7 @@
 .projectCard{
   background-color: var(--highlight-color);
 }
+
 img{
   width:300px;
   height:300px;
