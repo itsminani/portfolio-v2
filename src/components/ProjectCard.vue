@@ -1,8 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-
-const variable = ref("")
-console.log(variable)
 </script>
 
 <template>
