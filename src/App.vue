@@ -13,14 +13,7 @@ import Card from "./components/ProjectCard.vue";
     <NavBar id="nav"/>
     <ParallaxCard />
     <div class="flex flex-wrap gap-3 ">
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
+      
       <Card/>
     </div>
     <!-- <h1>MBOKOLO ASHOBORA KUBA ARENZE NDAQ dsfkljdsfj;ksfdjjlsfajlfsdjjfsdkl</h1> -->
