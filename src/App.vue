@@ -6,12 +6,14 @@ import ToggleDark from "./components/ToggleDark.vue";
 import NavBar from "./components/NavBar.vue";
 import ParallaxCard from "./components/ParallaxCard.vue";
 import Card from "./components/ProjectCard.vue";
+import GithubHero from "./components/GithubHero.vue";
 </script>
 
 <template class="">
   <div class=" ">
     <NavBar id="nav"/>
     <ParallaxCard />
+    <GithubHero />
     <div class="flex flex-wrap gap-3 ">
       <Card/>
       <Card/>
