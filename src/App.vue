@@ -5,13 +5,14 @@ import HelloWorld from "./components/HelloWorld.vue";
 import ToggleDark from "./components/ToggleDark.vue";
 import NavBar from "./components/NavBar.vue";
 import ParallaxCard from "./components/ParallaxCard.vue";
+import Card from "./components/Card.vue";
 </script>
 
 <template class="">
   <div class=" ">
     <NavBar id="nav"/>
     <ParallaxCard />
-    <!-- <div class="flex flex-wrap gap-3 ">
+    <div class="flex flex-wrap gap-3 ">
       <Card/>
       <Card/>
       <Card/>
@@ -21,7 +22,7 @@ import ParallaxCard from "./components/ParallaxCard.vue";
       <Card/>
       <Card/>
       <Card/>
-    </div> -->
+    </div>
     <!-- <h1>MBOKOLO ASHOBORA KUBA ARENZE NDAQ dsfkljdsfj;ksfdjjlsfajlfsdjjfsdkl</h1> -->
     <div class="flex">
       <a href="#" target="">
