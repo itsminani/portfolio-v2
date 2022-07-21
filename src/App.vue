@@ -5,7 +5,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 import ToggleDark from "./components/ToggleDark.vue";
 import NavBar from "./components/NavBar.vue";
 import ParallaxCard from "./components/ParallaxCard.vue";
-import Card from "./components/Card.vue";
+import Card from "./components/ProjectCard.vue";
 </script>
 
 <template class="">
