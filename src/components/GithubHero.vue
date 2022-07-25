@@ -1,13 +1,18 @@
-<script setup lang="ts"></script>
-
+<script setup lang="ts">
+import GithubCard from "./GithubCard.vue";
+</script>
 <template>
   <div class="flex flex-wrap mx-auto items-center justify-center">
     <div class="one bold">
       <h1>My Journey</h1>
       <p>My Journey to becoming a developer</p>
+      <GithubCard />
     </div>
-    <div class="two bold"><h1>My Activity</h1>
-    <p>A list of my github events</p></div>
+    <div class="two bold">
+      <h1>My Activity</h1>
+      <p>A list of my github events</p>
+    <GithubCard />
+    </div>
   </div>
 </template>
 

@@ -11,31 +11,33 @@ import GithubHero from "./components/GithubHero.vue";
 
 <template class="">
   <div class=" ">
-    <NavBar id="nav"/>
-    <ParallaxCard />
-    <GithubHero />
-    <div class="flex flex-wrap gap-3 ">
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
+    <NavBar id="nav" />
+    <div class="container mx-auto px-2">
+      <ParallaxCard />
+      <GithubHero />
+      <div class="flex flex-wrap gap-3">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
+      <!-- <h1>MBOKOLO ASHOBORA KUBA ARENZE NDAQ dsfkljdsfj;ksfdjjlsfajlfsdjjfsdkl</h1> -->
+      <div class="flex">
+        <a href="#" target="">
+          <img src="/vite.svg" class="logo" alt="Vite logo" />
+        </a>
+        <a href="#" target="">
+          <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+        </a>
+      </div>
+      <ToggleDark />
+      <HelloWorld msg="Vite + Vue" /> -->
     </div>
-    <!-- <h1>MBOKOLO ASHOBORA KUBA ARENZE NDAQ dsfkljdsfj;ksfdjjlsfajlfsdjjfsdkl</h1> -->
-    <div class="flex">
-      <a href="#" target="">
-        <img src="/vite.svg" class="logo" alt="Vite logo" />
-      </a>
-      <a href="#" target="">
-        <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-      </a>
-    </div>
-    <ToggleDark />
-    <HelloWorld msg="Vite + Vue" /> -->
   </div>
 </template>
 
@@ -47,7 +49,7 @@ import GithubHero from "./components/GithubHero.vue";
 }
 
 /* Set the width to 100vw */
-#nav{
+#nav {
   width: 100vw;
 }
 .logo:hover {
