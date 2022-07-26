@@ -1,19 +1,21 @@
 <script setup lang="ts">
-import { reactive,ref } from "vue";
-const result = ref(null)
-// Implementation code where T is the returned data shape
+import { reactive, ref } from "vue";
+const result = ref(null);
+// "https://api.github.com/users/itsminani/events/public
 
-function fetchData(){
-    fetch("https://api.github.com/users/itsminani/events/public")
-        .then(response =>response.json())
-        .then(data => result.value = data)
-        .then(data => console.log(data))
-    return result.value
-}
+const getData = fetch("https://api.github.com/users/itsminani/events/public")
+  .then((response) => response.json())
+  .then((data) => result.value=data);
+
+const userActivity = async () => {
+  const a = await getData;
+  console.log(a)
+  return a
+};
 
 
-console.log(fetchData())
-
+let bruv = userActivity()
+console.log(bruv)
 const card = reactive({
   title: "Noteworthy technology acquisitions 2021",
   description:
@@ -25,6 +27,7 @@ const card = reactive({
 </script>
 
 <template>
+<p>{{result}}</p>
   <ol class="relative m-5 border-l border-gray-200 dark:border-gray-700">
     <li class="mb-10 ml-6">
       <span
