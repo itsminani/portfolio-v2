@@ -10,7 +10,7 @@ import GithubCard from "./GithubCard.vue";
     </div>
     <div class="two bold">
       <h1>My Activity</h1>
-      <p>A list of my github events</p>
+      <p>My most recent Github Activity</p>
     <GithubCard />
     </div>
   </div>
