@@ -8,9 +8,23 @@ import ParallaxCard from "./components/ParallaxCard.vue";
 import Vanta from "./components/Vanta.vue";
 import Card from "./components/ProjectCard.vue";
 import GithubHero from "./components/GithubHero.vue";
+import VVanta from 'vue-vanta';
+
+ const options= {
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: true,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0xffffff,
+            color2: 0xf0f0f0,
+            backgroundColor: "#242424"
+        }
+      
 </script>
 
-<template class="">
+<template>
+
   <div id="your-element-selector"></div>
   <div class=" ">
     <NavBar id="nav" />
@@ -26,6 +40,7 @@ import GithubHero from "./components/GithubHero.vue";
         <Card />
         <Card />
       </div>
+        <v-vanta effect="dots" :options=options></v-vanta>
       <!-- <h1>MBOKOLO ASHOBORA KUBA ARENZE NDAQ dsfkljdsfj;ksfdjjlsfajlfsdjjfsdkl</h1> -->
       <div class="flex">
         <a href="#" target="">
