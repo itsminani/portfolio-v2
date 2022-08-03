@@ -5,6 +5,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 import ToggleDark from "./components/ToggleDark.vue";
 import NavBar from "./components/NavBar.vue";
 import ParallaxCard from "./components/ParallaxCard.vue";
+import Vanta from "./components/Vanta.vue";
 import Card from "./components/ProjectCard.vue";
 import GithubHero from "./components/GithubHero.vue";
 </script>
@@ -15,11 +16,9 @@ import GithubHero from "./components/GithubHero.vue";
     <NavBar id="nav" />
     <div class="container mx-auto px-2">
       <ParallaxCard />
+      <Vanta />
       <GithubHero />
       <div class="flex flex-wrap gap-3">
-        <Card />
-        <Card />
-        <Card />
         <Card />
         <Card />
         <Card />
