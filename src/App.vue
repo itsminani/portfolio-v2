@@ -10,6 +10,7 @@ import GithubHero from "./components/GithubHero.vue";
 </script>
 
 <template class="">
+  <div id="your-element-selector"></div>
   <div class=" ">
     <NavBar id="nav" />
     <div class="container mx-auto px-2">
